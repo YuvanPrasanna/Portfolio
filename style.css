@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------Navbar-------*/
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 10;
+}
+.bold{
+    font-size: 25px;
+}
+li{
+    padding: 5px;
+    
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+}
+
+/*--------Home----------*/
+
+span{
+    color: blue;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+
+/*------About------*/
+
+#about img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50px;
+}
+
+#hire{
+    color: blue;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #ffffff80;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-container p {
+    margin: 5px 0;
+}
+
+.footer-container a {
+    color: #1e90ff; /* Change this color to your preferred color */
+    text-decoration: none;
+    margin: 0 10px; /* Space between icons */
+    font-size: 24px; /* Size of icons */
+}
+
+.footer-container a:hover {
+    color: #fff; /* Change color on hover */
+    text-decoration: none;
+}
+
+
+
+
+
